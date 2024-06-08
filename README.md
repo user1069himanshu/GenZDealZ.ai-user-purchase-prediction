@@ -33,13 +33,13 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 python main.py
 
-##Usage
+## Usage
 The main script main.py generates a synthetic dataset, preprocesses the data, trains the model, and evaluates its performance. The results, including the loss, accuracy, precision, and recall, are printed at the end.
 
-##Results
+## Results
 The model's performance on the test set is evaluated using metrics such as loss, accuracy, precision, and recall. Despite using a synthetic dataset, the model provides a foundation for future improvements.
 
-##Future Work
+## Future Work
 Future improvements could include:
 
 Incorporating real-world purchase data.
